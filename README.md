@@ -63,12 +63,12 @@ The files with the initial proposed text for each signal are:
 
 ### Who is applying the signal
 
-A **Declaring Party** is someone who has both the ethical and legal authority to specify how a content collection should be used by machines. Sometimes, the Declaring Party will hold copyright or have authority to represent rightsholders in the content. In these cases, a CC signal may have legal effect depending on the particular jurisdiction. In cases where a collection of content includes works from multiple authors, it is be the responsibility of the Declaring Party to coordinate among its community to determine the appropriate signal(s).
+A **Declaring Party** is someone who specifies how a content collection should be used by machines. Sometimes, the Declaring Party will hold copyright or have authority to represent rightsholders in the content. In these cases, a CC signal may have legal effect depending on the particular jurisdictions. In cases where a collection of content includes content from multiple authors, it will be the responsibility of the Declaring Party to coordinate among its community to determine the appropriate signal(s).
 
 
 ### The scope of machine uses addressed by the signal
 
-The Declaring Party applies CC signals to a set of standard categories that encompass machine use, from general categories to more specific categories, such as Text and Data Mining, AI Training, Generative AI Training, and AI Inference. In order to maximize global interoperability, these categories will not be defined by Creative Commons. Instead, they will be based upon global standards being developed by the Internet Engineering Task Force (IETF). The CC signals framework is designed to evolve as the standard categories are finalized. The selected category makes up the scope of what activity the tool is intended to permit.
+The Declaring Party applies CC signals to a set of standard categories that encompass machine use, from general categories to more specific categories, such as Text and Data Mining, AI Training, Generative AI Training, and AI Inference. In order to maximize global interoperability, these categories will not be defined by Creative Commons. Instead, they will be based upon global standards being developed by the Internet Engineering Task Force (IETF). The CC signals framework is designed to evolve as the standard categories are finalized. The selected category makes up the scope of what activity the tool is intended to address.
 
 
 ### What signal is applied
@@ -82,26 +82,35 @@ A declaration will lay out the full picture of the CC signal application happeni
 
 ### Legal Considerations
 
-CC signals are designed as global tools, which means they operate across legal systems that work differently. As a result, applying a CC signal is likely to have a different legal effect depending on who applies it and in what context.
+CC signals are designed as global tools, which means they operate across legal systems that work differently. In the context of machine reuse, copyright law is limited, uncertain, and inconsistent across jurisdictions. As a result, applying a CC signal is likely to have a different legal effect depending on who applies it and in what context.
 
-_When the Declaring Party has copyright authority_, a CC signal may be legally enforceable depending on the jurisdiction. 
+Where copyright exists and is applicable, CC signals are intended to leverage the power of copyright without increasing its power. 
 
-In the context of machine reuse, copyright law is limited, uncertain, and inconsistent across jurisdictions. The CC signals are intended to sit neatly within copyright in a way that leverages the power of copyright where it exists and is applicable, without _increasing_ the power of copyright.  
+This is not about creating new property rights; it is more like defining manners for machines.
+
+For more detail, please see the report [link]. Further research and analysis about the legal implications of CC signals will be a major focus of our efforts in the coming months.
 
 ### Adhering to a CC signal 
 
 **Credit:** 
-Attribution and provenance in the AI context is both complex and rapidly changing as technologies develop. To account for this, like the attribution requirement in the CC licenses, we imagine this signal requiring credit in any reasonable manner. As a subsequent phase of CC’s preference signals framework, we will develop a set of best practices for credit. For now, at a minimum, we expect this signal requires citation of the training dataset by the reuser. For retrieval augmented generation (RAG) and other use cases where it is technically feasible to connect the data with particular outputs, outputs must cite the collection as a source with a link.
+Attribution and provenance in the context of large AI models is complex, difficult, and rapidly evolving as technologies develop. However, this does not mean that the concept of credit should be seen as irrelevant or impossible in the context of AI. We seek to establish norms around what is possible, not letting the perfect be the enemy of the good. Like the attribution condition in the CC licenses, we imagine the credit signal element being enacted in any reasonable manner. We plan to develop guidance and best practices around credit in future stages of this work, drawing on the progress being made in this area by others in the field. For now, at a minimum, we expect this signal to require citation of the training dataset by the reuser. For techniques that enable models to retrieve information in response to queries, such as retrieval augmented generation (RAG), and other use cases where it is technically feasible to connect content with particular outputs, outputs must cite the collection as a source with a link. 
 
-**Direct & Ecosystem Contribution:** 
-The contribution signals are not intended to spur a commercial transaction. They are designed to create a structure for financial or non-monetary contributions to support the sustainability of the declaring party or the ecosystem in which the declaring party is situated.  The application of CC signals should not be seen as a business model, or even a way to reliably recoup costs. The contributions are intended to be proportionate, both to the particular type and scale of machine reuse, and to the financial means of the party undertaking it.
+**Direct Contribution:** 
+This is not intended as a commercial transaction. It is designed to create a structure for financial or in-kind contribution to support the sustainability of the Declaring Party. The application of CC signals should not be seen as a business model, or even a way to reliably recoup costs. The contributions are intended to be proportionate, both to the particular type and scale of machine reuse, and to the financial means of the party undertaking it. As with credit, we plan to produce guidance and best practices for direct contribution as CC signals develop.
 
-At a later stage, CC will develop best practices for valuation and ecosystem contribution available on CC’s site. 
+**Ecosystem Contribution**
+This is designed to spur contributions that support the commons as a whole. While the initial phrasing is very open-ended, we hope and expect that norms, best practices, and even new, collective-minded structures could grow around this notion in different sectors and for different types of reuses. The aim is to encourage a practice of giving back, infusing a norm of reciprocity in ways that will help sustain the ecosystem for all. 
 
 **Open:** 
-This signal element reflects the fact that making AI models openly available for others to use and build on is a form of reciprocity. Given the work done by others in the field, our proposal for this signal is more specific about what is required to adhere to it. Prospective users of content made available with this signal must satisfy the Model Openness Framework (MOF) Class II, MOF Class I, or the Open Source AI Definition (OSAID).
+This signal element reflects the fact that making AI models open—by releasing model weights, code, or datasets for others to use and build on—is a form of reciprocity.  Given the progress made by others in the field to provide meaningful definitions of openness, our proposal for this signal is more specific about what is required to adhere to it.
 
-At a later stage of development, we can be more specific about what it means to adhere to the open signal. 
+**Incentivizing Adherence by AI Developers** 
+We recognize that CC signals will rely on willing participation by AI developers to adhere to it. There are many reasons to be cynical about adherence, particularly when it is not legally required, and there are and will always be bad actors. However, we see many reasons to believe that uptake is likely.
+
+For one thing, there is precedent. Although adherence hasn’t always been perfect, robots.txt functioned for many years as a way to encode normative expectations about—and help maintain the social contract for—machine reuse of content on the web. We also see the success of CC licensing as evidence that voluntary buy-in is possible. While CC licenses are built atop copyright law and therefore carry the weight of copyright infringement risk, in reality they work because people have chosen to adhere to them. Litigation involving enforcement of CC licenses is rare, and much of it involves litigants who are not operating in good faith. Instead, there are now tens of billions of CC-licensed works available in the commons because they are grounded in intuitive notions about what is fair and prosocial when it comes to sharing and reuse of knowledge. 
+
+There are also clear reasons why rational actors should respect and adhere to preference signals. As we’ve written earlier in this report, data from across the public web is a key component in developing large AI models. If those developing AI do not respect the wishes of creators, they risk eliminating incentives for people to share and widely distribute their works. Over time, this will compromise the accuracy, safety and currency of the models and services they build. This will be particularly acute for small firms, startups, nonprofits, and academic researchers, who would not have the resources to instead rely on costly licensing deals. 
+
 
 ## Overview of Technical Implementation
 
