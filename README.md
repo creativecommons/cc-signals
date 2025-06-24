@@ -3,12 +3,12 @@
 
 ## Welcome!
 
-This Creative Commons (CC) repository contains a draft proposal for CC signals. CC signals is a framework for a simple pact between those stewarding data, and those reusing it for AI development. CC signals provide a set of shared ground rules for an AI ecosystem that is mutually beneficial. They are currently designed to be applied at the dataset level, intended for use by those stewarding collections of content and other assets used as data for AI development.
+This Creative Commons (CC) repository contains a draft proposal for CC signals. CC signals is a framework for a simple pact between those stewarding data, and those reusing it for AI development. CC signals provide a set of shared ground rules for an AI ecosystem that is mutually beneficial. They are currently intended for use by those stewarding collections of content and other assets used as data for AI development.
 
 
 ### 🚀 Start here
 
-1. Read through the CC signals documentation on the CC website. For a comprehensive overview of the current legal, technical, and social context in which CC signals must operate, and rationale behind design decisions, read our report **`LINK NEEDED`**.  
+1. Read through the CC signals documentation on the CC website **`LINK NEEDED`**. For a comprehensive overview of the current legal, technical, and social context in which CC signals must operate, and rationale behind design decisions, read our report **`LINK NEEDED`**.  
 2. Review the elements of the CC signals draft proposal below. 
 
 
@@ -30,7 +30,7 @@ The GitHub web interface offers many capabilities and can, accordingly, feel ove
 
 ## CC signals framework
 
-Using CC signals, a steward of a large collection of content can express a set of criteria that AI developers must meet. CC signals are designed as global tools, which means they operate across legal systems that work differently. As a result, applying a CC signal is likely to have a different legal effect depending on who applies it and in what context. The CC signals are intended to sit neatly within copyright in a way that leverages the power of copyright where it exists and is applicable, without increasing the power of copyright. 
+Using CC signals, a steward of a large collection of content can express a set of criteria that AI developers must meet. The criteria are organized around different dimensions of reciprocity, and are intended to drive meaningful, practical action. CC signals are designed to be interpretable by machines, as well as humans.
 
 
 ## CC signals
@@ -55,7 +55,6 @@ The files with the initial proposed text for each signal are:
 [cr-dc]: signals/cr-dc/0.1/
 [cr-ec]: signals/cr-ec/0.1/
 [cr-op]: signals/cr-op/0.1/
-
 
 
 ## How CC signals work
