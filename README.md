@@ -1,7 +1,5 @@
 # cc-signals
 
-> ⚠️ **Demonstration / Test repository. BEFORE RELEASE, THIS REPOSITORY WILL BE DUPLICATED AND THEN DELETED**
-
 
 ## Welcome!
 
