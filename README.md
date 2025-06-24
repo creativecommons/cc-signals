@@ -72,7 +72,7 @@ The Declaring Party applies CC signals to a set of standard categories that enco
 
 ### What signal is applied
 
-The Declaring Party selects among the available CC signals. Once selected, that signal reflects the Declaring Party’s preferences regarding machine reuse. This means that the Declaring Party says that the selected category of machine reuse is allowed under the terms of the particular signal elements. 
+The Declaring Party selects among the available CC signals. Once selected, that signal reflects the Declaring Party’s preferences regarding machine reuse. This means that the Declaring Party says that the selected category of machine reuse is granted under the terms of the particular signal elements. 
 
 Similar to the CC licenses, CC signals will be both machine- and human-readable. The human-readable explanation of what happens when a signal is applied will be called a **declaration**. The string of code used to apply a CC signal to a dataset will be called a **content usage expression**. 
 
@@ -142,13 +142,13 @@ ai=n;exceptions=cc-cr
 ```
 1. Category - the designated scope of machine reuse using defined categories
    - (see [A Vocabulary For Expressing AI Usage Preferences][draft-vocab] for a list of categories)
-2. Preference - `y`: allow or `n`: disallow
+2. Preference - `y`: grant or `n`: deny
 3. CC signal - the particular CC signal designated
 
 
 ### Robots.txt example
 
-The following `robots.txt` excerpt example allows access to all paths for all user agents with a usage preference of no for AI training unless credit is provided per the CC signal.
+The following `robots.txt` excerpt example grants permission to all paths for all user agents with a usage preference of no for AI training unless credit is provided per the CC signal.
 ```robots.txt
 User-Agent: *
 Content-Usage: ai=n;exceptions=cc-cr
@@ -157,7 +157,7 @@ Allow: /
 
 ### HTTP header example
 
-The following HTTP Content-Usage header example allows access to the URL with a usage preference of no for generative AI training unless credit and an ecosystem contribution is provided per the CC signal.
+The following HTTP Content-Usage header example grants permission to the URL with a usage preference of no for generative AI training unless credit and an ecosystem contribution is provided per the CC signal.
 ```HTTP
 200 OK
 Date: Mon, 09 Jun 2025 12:42:03 UTC
