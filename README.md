@@ -8,7 +8,7 @@ This Creative Commons (CC) repository contains a draft proposal for CC signals. 
 
 ### 🚀 Start here
 
-1. Read through the [CC signals documentation](https://creativecommons.org/ai-and-the-commons/cc-signals/) on the CC website. For a comprehensive overview of the current legal, technical, and social context in which CC signals must operate, and rationale behind design decisions, read our report **`LINK NEEDED`**.
+1. Read through the [CC signals documentation](https://creativecommons.org/ai-and-the-commons/cc-signals/) on the CC website. For a comprehensive overview of the current legal, technical, and social context in which CC signals must operate, and rationale behind design decisions, read our [report] (http://bit.ly/3G40J1j/).
 2. Review the elements of the CC signals draft proposal below.
 
 
