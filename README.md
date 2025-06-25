@@ -17,7 +17,7 @@ This Creative Commons (CC) repository contains a draft proposal for CC signals. 
 1. Head over to [Discussions][discussions] to provide direct feedback on our prepopulated questions and to start new discussion threads with the CC team and broader community.
 2. Use [Issues][issues] to submit concrete suggestions or edits to CC signals structure, language, or implementation details. Please check closed issues before opening a new one.
 
-[discussions]: https://github.com/creativecommons/cc-signals-test/discussions
+[discussions]: https://github.com/creativecommons/cc-signals/discussions
 [issues]: https://github.com/creativecommons/cc-signals/issues
 
 
