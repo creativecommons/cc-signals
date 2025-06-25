@@ -186,11 +186,12 @@ Content-Usage: genai=n;exceptions=cc-cr-ec
 [tmfaq]: https://creativecommons.org/faq/#could-i-use-a-cc-license-to-share-my-logo-or-trademark
 
 
-### Dedicated to the public domain
+### License
 
-![CC0 1.0 Universal license button][cc0-png]
+[![CC BY 4.0 license button][cc-by-png]][cc-by]
 
-[`LICENSE`](LICENSE): Excluding CC trademarks and to the extent possible under law, Creative Commons has waived all copyright and related or neighboring rights to this work ([CC0 1.0 Universal][cc0]).
+[`LICENSE`](LICENSE): Licensed under a [Creative Commons Attribution 4.0
+International License][cc-by].
 
-[cc0-png]: https://licensebuttons.net/l/zero/1.0/88x31.png "CC0 1.0 Universal license button"
-[cc0]: https://creativecommons.org/publicdomain/zero/1.0/ "Creative Commons — CC0 1.0 Universal"
+[cc-by-png]: https://licensebuttons.net/l/by/4.0/88x31.png#floatleft "CC BY 4.0 license button"
+[cc-by]: https://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International License"
