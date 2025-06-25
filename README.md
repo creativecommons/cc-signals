@@ -87,7 +87,7 @@ Where copyright exists and is applicable, CC signals are intended to leverage th
 
 This is not about creating new property rights; it is more like defining manners for machines.
 
-For more detail, please see the report [link]. Further research and analysis about the legal implications of CC signals will be a major focus of our efforts in the coming months.
+For more detail, please see the [report](http://bit.ly/3G40J1j). Further research and analysis about the legal implications of CC signals will be a major focus of our efforts in the coming months.
 
 
 ### Declaration example
