@@ -8,13 +8,13 @@ This Creative Commons (CC) repository contains a draft proposal for CC signals. 
 
 ### 🚀 Start here
 
-1. Read through the [CC signals documentation](https://creativecommons.org/ai-and-the-commons/cc-signals/) on the CC website. For a comprehensive overview of the current legal, technical, and social context in which CC signals must operate, and rationale behind design decisions, read our report **`LINK NEEDED`**.  
-2. Review the elements of the CC signals draft proposal below. 
+1. Read through the [CC signals documentation](https://creativecommons.org/ai-and-the-commons/cc-signals/) on the CC website. For a comprehensive overview of the current legal, technical, and social context in which CC signals must operate, and rationale behind design decisions, read our report **`LINK NEEDED`**.
+2. Review the elements of the CC signals draft proposal below.
 
 
 ### How to provide feedback
 
-1. Head over to [Discussions][discussions] to provide direct feedback on our prepopulated questions and to start new discussion threads with the CC team and broader community. 
+1. Head over to [Discussions][discussions] to provide direct feedback on our prepopulated questions and to start new discussion threads with the CC team and broader community.
 2. Use [Issues][issues] to submit concrete suggestions or edits to CC signals structure, language, or implementation details. Please check closed issues before opening a new one.
 
 [discussions]: https://github.com/creativecommons/cc-signals-test/discussions
@@ -39,7 +39,7 @@ In this initial proposal, we have drafted four “signal elements” for public 
   - Credit
   - Credit + Direct Contribution
   - Credit + Ecosystem Contribution
-  - Credit + Open 
+  - Credit + Open
 
 The files with the initial proposed text for each signal are:
 
@@ -72,60 +72,71 @@ The Declaring Party applies CC signals to a set of standard categories that enco
 
 ### What signal is applied
 
-The Declaring Party selects among the available CC signals. Once selected, that signal reflects the Declaring Party’s preferences regarding machine reuse. This means that the Declaring Party says that the selected category of machine reuse is granted under the terms of the particular signal elements. 
+The Declaring Party selects among the available CC signals. Once selected, that signal reflects the Declaring Party’s preferences regarding machine reuse. This means that the Declaring Party says that the selected category of machine reuse is granted under the terms of the particular signal elements.
 
-Similar to the CC licenses, CC signals will be both machine- and human-readable. The human-readable explanation of what happens when a signal is applied will be called a **declaration**. The string of code used to apply a CC signal to a dataset will be called a **content usage expression**. 
+Similar to the CC licenses, CC signals will be both machine- and human-readable. The human-readable explanation of what happens when a signal is applied will be called a **declaration**. The string of code used to apply a CC signal to a dataset will be called a **content usage expression**.
 
-A declaration will lay out the full picture of the CC signal application happening in human-readable form, including variation based on whether the Declaring Party has copyright authority. 
+A declaration will lay out the full picture of the CC signal application happening in human-readable form, including variation based on whether the Declaring Party has copyright authority.
 
 
 ### Legal Considerations
 
 CC signals are designed as global tools, which means they operate across legal systems that work differently. In the context of machine reuse, copyright law is limited, uncertain, and inconsistent across jurisdictions. As a result, applying a CC signal is likely to have a different legal effect depending on who applies it and in what context.
 
-Where copyright exists and is applicable, CC signals are intended to leverage the power of copyright without increasing its power. 
+Where copyright exists and is applicable, CC signals are intended to leverage the power of copyright without increasing its power.
 
 This is not about creating new property rights; it is more like defining manners for machines.
 
 For more detail, please see the report [link]. Further research and analysis about the legal implications of CC signals will be a major focus of our efforts in the coming months.
 
-### Adhering to a CC signal 
 
-**Credit:** 
-Attribution and provenance in the context of large AI models is complex, difficult, and rapidly evolving as technologies develop. However, this does not mean that the concept of credit should be seen as irrelevant or impossible in the context of AI. We seek to establish norms around what is possible, not letting the perfect be the enemy of the good. Like the attribution condition in the CC licenses, we imagine the credit signal element being enacted in any reasonable manner. We plan to develop guidance and best practices around credit in future stages of this work, drawing on the progress being made in this area by others in the field. For now, at a minimum, we expect this signal to require citation of the training dataset by the reuser. For techniques that enable models to retrieve information in response to queries, such as retrieval augmented generation (RAG), and other use cases where it is technically feasible to connect content with particular outputs, outputs must cite the collection as a source with a link. 
+### Declaration example
 
-**Direct Contribution:** 
+Since the scope and effect of a CC signal is dictated by factors outside of the CC signal itself, we plan to create a set of declarations that describe in human-readable terms what is happening when a CC signal is applied, with variation based on the category selected and the copyright status of the Declaring Party. Declarations could be purely an explanatory device for users, or they could create legal documents in some circumstances. This aspect of the implementation is not yet determined.
+
+
+### Adhering to a CC signal
+
+
+#### Credit
+
+Attribution and provenance in the context of large AI models is complex, difficult, and rapidly evolving as technologies develop. However, this does not mean that the concept of credit should be seen as irrelevant or impossible in the context of AI. We seek to establish norms around what is possible, not letting the perfect be the enemy of the good. Like the attribution condition in the CC licenses, we imagine the credit signal element being enacted in any reasonable manner. We plan to develop guidance and best practices around credit in future stages of this work, drawing on the progress being made in this area by others in the field. For now, at a minimum, we expect this signal to require citation of the training dataset by the reuser. For techniques that enable models to retrieve information in response to queries, such as retrieval augmented generation (RAG), and other use cases where it is technically feasible to connect content with particular outputs, outputs must cite the collection as a source with a link.
+
+
+#### Direct Contribution
+
 This is not intended as a commercial transaction. It is designed to create a structure for financial or in-kind contribution to support the sustainability of the Declaring Party. The application of CC signals should not be seen as a business model, or even a way to reliably recoup costs. The contributions are intended to be proportionate, both to the particular type and scale of machine reuse, and to the financial means of the party undertaking it. As with credit, we plan to produce guidance and best practices for direct contribution as CC signals develop.
 
-**Ecosystem Contribution**
-This is designed to spur contributions that support the commons as a whole. While the initial phrasing is very open-ended, we hope and expect that norms, best practices, and even new, collective-minded structures could grow around this notion in different sectors and for different types of reuses. The aim is to encourage a practice of giving back, infusing a norm of reciprocity in ways that will help sustain the ecosystem for all. 
 
-**Open:** 
+#### Ecosystem Contribution
+
+This is designed to spur contributions that support the commons as a whole. While the initial phrasing is very open-ended, we hope and expect that norms, best practices, and even new, collective-minded structures could grow around this notion in different sectors and for different types of reuses. The aim is to encourage a practice of giving back, infusing a norm of reciprocity in ways that will help sustain the ecosystem for all.
+
+
+#### Open
+
 This signal element reflects the fact that making AI models open—by releasing model weights, code, or datasets for others to use and build on—is a form of reciprocity.  Given the progress made by others in the field to provide meaningful definitions of openness, our proposal for this signal is more specific about what is required to adhere to it.
 
-**Incentivizing Adherence by AI Developers** 
+
+#### Incentivizing Adherence by AI Developers
+
 We recognize that CC signals will rely on willing participation by AI developers to adhere to it. There are many reasons to be cynical about adherence, particularly when it is not legally required, and there are and will always be bad actors. However, we see many reasons to believe that uptake is likely.
-  For one thing, there is precedent. Although adherence hasn’t always been perfect, robots.txt functioned for many years as a way to encode normative expectations about—and help maintain the social contract for—machine reuse of content on the web. We also see the success of CC licensing as evidence that voluntary buy-in is possible. While CC licenses are built atop copyright law and therefore carry the weight of copyright infringement risk, in reality they work because people have chosen to adhere to them. Litigation involving enforcement of CC licenses is rare, and much of it involves litigants who are not operating in good faith. Instead, there are now tens of billions of CC-licensed works available in the commons because they are grounded in intuitive notions about what is fair and prosocial when it comes to sharing and reuse of knowledge. 
-  There are also clear reasons why rational actors should respect and adhere to preference signals. As we’ve written earlier in this report, data from across the public web is a key component in developing large AI models. If those developing AI do not respect the wishes of creators, they risk eliminating incentives for people to share and widely distribute their works. Over time, this will compromise the accuracy, safety and currency of the models and services they build. This will be particularly acute for small firms, startups, nonprofits, and academic researchers, who would not have the resources to instead rely on costly licensing deals. 
+  For one thing, there is precedent. Although adherence hasn’t always been perfect, robots.txt functioned for many years as a way to encode normative expectations about—and help maintain the social contract for—machine reuse of content on the web. We also see the success of CC licensing as evidence that voluntary buy-in is possible. While CC licenses are built atop copyright law and therefore carry the weight of copyright infringement risk, in reality they work because people have chosen to adhere to them. Litigation involving enforcement of CC licenses is rare, and much of it involves litigants who are not operating in good faith. Instead, there are now tens of billions of CC-licensed works available in the commons because they are grounded in intuitive notions about what is fair and prosocial when it comes to sharing and reuse of knowledge.
+  There are also clear reasons why rational actors should respect and adhere to preference signals. As we’ve written earlier in this report, data from across the public web is a key component in developing large AI models. If those developing AI do not respect the wishes of creators, they risk eliminating incentives for people to share and widely distribute their works. Over time, this will compromise the accuracy, safety and currency of the models and services they build. This will be particularly acute for small firms, startups, nonprofits, and academic researchers, who would not have the resources to instead rely on costly licensing deals.
 
 
 ## Overview of Technical Implementation
 
 Our implementation proposal is focused on integration with existing but evolving web standards and protocols. The [Internet Engineering Task Force (IETF) AI Preferences Working Group](https://datatracker.ietf.org/wg/aipref/about/) is currently leading on work to ensure that any approaches used to declare preference signals are machine-readable and therefore effective at scale. We propose an extension of that work to incorporate CC signals. This means that a CC signal would be applied as part of the robots.txt and HTTP headers, building on standards work already underway. The string of code used to apply a CC signal is called the "content usage expression." The technical specification is below in Extending the Vocabulary for Expressing AI Usage Preferences.
 
-The design choice to build upon existing work by the IETF affects more than just the mechanics of applying a CC signal. It also means that the scope of attachment of the CC signal is dictated by choices made as part of the content usage expression. For example, someone applying a CC signal (a "Declaring Party") selects the category of machine reuse -- such as Generative AI Training -- using the categories defined by the IETF standards. Once selected, that category of machine reuse is the scope of the CC signal attached by the Declaring Party. 
+The design choice to build upon existing work by the IETF affects more than just the mechanics of applying a CC signal. It also means that the scope of attachment of the CC signal is dictated by choices made as part of the content usage expression. For example, someone applying a CC signal (a "Declaring Party") selects the category of machine reuse -- such as Generative AI Training -- using the categories defined by the IETF standards. Once selected, that category of machine reuse is the scope of the CC signal attached by the Declaring Party.
 
-From a legal perspective, the copyright status of the Declaring Party will change the effect of a CC signal. When the Declaring Party holds copyright authority over the assets to which they are applying a CC signal, the CC signal may have legal implications that vary depending on the jurisdiction. 
+From a legal perspective, the copyright status of the Declaring Party will change the effect of a CC signal. When the Declaring Party holds copyright authority over the assets to which they are applying a CC signal, the CC signal may have legal implications that vary depending on the jurisdiction.
 
 We plan to create and release a set of "declarations" that explain the full picture of what is happening when a CC signal is applied, including how they interact with categories and copyright status. See more on that in the Declaration section below.
 
 
-## Declaration example
-
-Since the scope and effect of a CC signal is dictated by factors outside of the CC signal itself, we plan to create a set of declarations that describe in human-readable terms what is happening when a CC signal is applied, with variation based on the category selected and the copyright status of the Declaring Party. Declarations could be purely an explanatory device for users, or they could create legal documents in some circumstances. This aspect of the implementation is not yet determined.
-
-
-## Specification for Extending the Vocabulary For Expressing AI Usage Preferences
+### Specification for extending the Vocabulary For Expressing AI Usage Preferences
 
 The CC signals extend the IETF draft [Vocabulary For Expressing AI Usage Preferences][draft-vocab]. It uses parameters (as defined by [RFC 9651: Structured Field Values for HTTP][rfc9651]). The IETF AI Preferences workgroup is initially defining two methods for attaching AI preferences to assets ([Indicating Preferences Regarding Content Usage][draft-attach]):
 1. robots.txt ([RFC 9309: Robots Exclusion Protocol][rfc9309]) for location based preferences
@@ -162,6 +173,7 @@ Content-Usage: ai=n;exceptions=cc-cr
 Allow: /
 ```
 
+
 ### HTTP header example
 
 The following HTTP Content-Usage header example grants permission to the URL with a usage preference of no for generative AI training unless credit and an ecosystem contribution is provided per the CC signal.
@@ -171,7 +183,6 @@ Date: Mon, 09 Jun 2025 12:42:03 UTC
 Content-Type: text/plain
 Content-Usage: genai=n;exceptions=cc-cr-ec
 ```
-
 
 
 ## Copyright and trademarks used in this repository
