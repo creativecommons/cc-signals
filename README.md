@@ -25,6 +25,7 @@ This Creative Commons (CC) repository contains a draft proposal for CC signals. 
 
 The GitHub web interface offers many capabilities and can, accordingly, feel overwhelming. Thankfully, GitHub offers good documentation:
 - [GitHub Docs](https://docs.github.com/en)
+  - [Creating an account on GitHub - GitHub Docs](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
   - [Participating in a discussion - GitHub Docs](https://docs.github.com/en/discussions/collaborating-with-your-community-using-discussions/participating-in-a-discussion)
 
 
