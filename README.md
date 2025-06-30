@@ -96,6 +96,11 @@ For more detail, please see the [report](http://bit.ly/3G40J1j). Further researc
 Since the scope and effect of a CC signal is dictated by factors outside of the CC signal itself, we plan to create a set of declarations that describe in human-readable terms what is happening when a CC signal is applied, with variation based on the category selected and the copyright status of the Declaring Party. Declarations could be purely an explanatory device for users, or they could create legal documents in some circumstances. This aspect of the implementation is not yet determined.
 
 
+### Opting out
+
+CC signals modify the IETF AI Preferences opt-out with an exception that encourages reciprocity. To simply opt out, you do not need CC signals. For more information see the IETF [AI Preferences (aipref)](https://datatracker.ietf.org/wg/aipref/about/) working group.
+
+
 ### Adhering to a CC signal
 
 
