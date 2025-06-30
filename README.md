@@ -3,7 +3,7 @@
 
 ## Welcome!
 
-This Creative Commons (CC) repository contains a draft proposal for CC signals. CC signals is a framework for a simple pact between those stewarding data, and those reusing it for AI development. CC signals provide a set of shared ground rules for an AI ecosystem that is mutually beneficial. They are currently intended for use by those stewarding collections of content and other assets used as data for AI development.
+This Creative Commons (CC) repository contains a draft proposal for CC signals. CC signals is a framework for a simple pact between those stewarding data, and those reusing it for AI development. CC signals provide a set of shared ground rules for an AI ecosystem that is mutually beneficial.
 
 
 ### 🚀 Start here
@@ -31,7 +31,7 @@ The GitHub web interface offers many capabilities and can, accordingly, feel ove
 
 ## CC signals framework
 
-Using CC signals, a steward of a large collection of content can express a set of criteria that AI developers must meet. The criteria are organized around different dimensions of reciprocity, and are intended to drive meaningful, practical action. CC signals are designed to be interpretable by machines, as well as humans.
+Using CC signals, a content steward can express a set of criteria that AI developers must meet. The criteria are organized around different dimensions of reciprocity, and are intended to drive meaningful, practical action. CC signals are designed to be interpretable by machines, as well as humans.
 
 
 ## CC signals
@@ -63,7 +63,7 @@ The files with the initial proposed text for each signal are:
 
 ### Who is applying the signal
 
-A **Declaring Party** is someone who specifies how a content collection should be used by machines. Sometimes, the Declaring Party will hold copyright or have authority to represent rightsholders in the content. In these cases, a CC signal may have legal effect depending on the particular jurisdictions. In cases where a collection of content includes content from multiple authors, it will be the responsibility of the Declaring Party to coordinate among its community to determine the appropriate signal(s).
+A **Declaring Party** is someone who specifies how content should be used by machines. Sometimes, the Declaring Party will hold copyright or have authority to represent rightsholders in the content. In these cases, a CC signal may have legal effect depending on the particular jurisdictions. In cases where a collection of content includes content from multiple authors, it will be the responsibility of the Declaring Party to coordinate among its community to determine the appropriate signal(s).
 
 
 ### The scope of machine uses addressed by the signal
@@ -101,7 +101,7 @@ Since the scope and effect of a CC signal is dictated by factors outside of the 
 
 #### Credit
 
-Attribution and provenance in the context of large AI models is complex, difficult, and rapidly evolving as technologies develop. However, this does not mean that the concept of credit should be seen as irrelevant or impossible in the context of AI. We seek to establish norms around what is possible, not letting the perfect be the enemy of the good. Like the attribution condition in the CC licenses, we imagine the credit signal element being enacted in any reasonable manner. We plan to develop guidance and best practices around credit in future stages of this work, drawing on the progress being made in this area by others in the field. For now, at a minimum, we expect this signal to require citation of the training dataset by the reuser. For techniques that enable models to retrieve information in response to queries, such as retrieval augmented generation (RAG), and other use cases where it is technically feasible to connect content with particular outputs, outputs must cite the collection as a source with a link.
+Attribution and provenance in the context of large AI models is complex, difficult, and rapidly evolving as technologies develop. However, this does not mean that the concept of credit should be seen as irrelevant or impossible in the context of AI. We seek to establish norms around what is possible, not letting the perfect be the enemy of the good. Like the attribution condition in the CC licenses, we imagine the credit signal element being enacted in any reasonable manner. We plan to develop guidance and best practices around credit in future stages of this work, drawing on the progress being made in this area by others in the field. For now, at a minimum, we expect this signal to require citation of the training dataset by the reuser. For techniques that enable models to retrieve information in response to queries, such as retrieval augmented generation (RAG), and other use cases where it is technically feasible to connect content with particular outputs, outputs must cite the content as a source with a link.
 
 
 #### Direct Contribution
