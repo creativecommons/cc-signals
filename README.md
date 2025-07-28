@@ -31,7 +31,9 @@ The GitHub web interface offers many capabilities and can, accordingly, feel ove
 
 ## CC signals framework
 
-Using CC signals, a content steward can express a set of criteria that AI developers must meet. The criteria are organized around different dimensions of reciprocity, and are intended to drive meaningful, practical action. CC signals are designed to be interpretable by machines, as well as humans.
+Using CC signals, a content steward can express a set of criteria that AI developers must meet. The criteria are organized around different dimensions of reciprocity, and are intended to drive meaningful, practical action. CC signals are designed to be interpretable by machines, as well as humans. To accomplish this, they build on [developing standards for expressing AI usage preferences][draft-vocab]. Those standards will include options for fully opting out, so no CC signal is needed to do so. CC signals are intended for use cases where someone wants to allow reuse, but with terms attached.
+
+[draft-vocab]: https://ietf-wg-aipref.github.io/drafts/draft-ietf-aipref-vocab.html
 
 
 ## CC signals
@@ -94,6 +96,11 @@ For more detail, please see the [report](http://bit.ly/3G40J1j). Further researc
 ### Declaration example
 
 Since the scope and effect of a CC signal is dictated by factors outside of the CC signal itself, we plan to create a set of declarations that describe in human-readable terms what is happening when a CC signal is applied, with variation based on the category selected and the copyright status of the Declaring Party. Declarations could be purely an explanatory device for users, or they could create legal documents in some circumstances. This aspect of the implementation is not yet determined.
+
+
+### Opting out
+
+CC signals modify the IETF AI Preferences opt-out with an exception that encourages reciprocity. To simply opt out, you do not need CC signals. For more information see the IETF [AI Preferences (aipref)](https://datatracker.ietf.org/wg/aipref/about/) working group.
 
 
 ### Adhering to a CC signal
