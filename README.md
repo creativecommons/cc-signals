@@ -33,7 +33,7 @@ The GitHub web interface offers many capabilities and can, accordingly, feel ove
 
 Using CC signals, a steward of a large collection of content can express a set of criteria that AI developers must meet. The criteria are organized around different dimensions of reciprocity, and are intended to drive meaningful, practical action. CC signals are designed to be interpretable by machines, as well as humans. To accomplish this, they build on [developing standards for expressing AI usage preferences][draft-vocab]. Those standards will include options for fully opting out, so no CC signal is needed to do so. CC signals are intended for use cases where someone wants to allow reuse, but with terms attached.
 
-[draft-vocab]: https://ietf-wg-aipref.github.io/drafts/draft-ietf-aipref-vocab.html
+[draft-vocab]: https://datatracker.ietf.org/doc/draft-ietf-aipref-vocab/
 
 
 ## CC signals
@@ -70,7 +70,7 @@ A **Declaring Party** is someone who specifies how a content collection should b
 
 ### The scope of machine uses addressed by the signal
 
-The Declaring Party applies CC signals to a set of standard categories that encompass machine use, from general categories to more specific categories, such as Text and Data Mining, AI Training, Generative AI Training, and AI Inference. In order to maximize global interoperability, these categories will not be defined by Creative Commons. Instead, they will be based upon global standards being developed by the Internet Engineering Task Force (IETF). The CC signals framework is designed to evolve as the standard categories are finalized. The selected category makes up the scope of what activity the tool is intended to address.
+The Declaring Party applies CC signals to a set of standard categories that encompass machine use, from general categories to more specific categories, such as Automated Processing, AI Training, Generative AI Training, AI Use, and Search. In order to maximize global interoperability, these categories will not be defined by Creative Commons. Instead, they will be based upon global standards being developed by the Internet Engineering Task Force (IETF). The CC signals framework is designed to evolve as the standard categories are finalized. The selected category makes up the scope of what activity the tool is intended to address.
 
 
 ### What signal is applied
@@ -146,12 +146,12 @@ We plan to create and release a set of "declarations" that explain the full pict
 
 ### Specification for extending the Vocabulary For Expressing AI Usage Preferences
 
-The CC signals extend the IETF draft [Vocabulary For Expressing AI Usage Preferences][draft-vocab]. It uses parameters (as defined by [RFC 9651: Structured Field Values for HTTP][rfc9651]). The IETF AI Preferences workgroup is initially defining two methods for attaching AI preferences to assets ([Indicating Preferences Regarding Content Usage][draft-attach]):
+The CC signals extend the IETF draft [Vocabulary For Expressing AI Usage Preferences][draft-vocab]. It uses parameters (as defined by [RFC 9651: Structured Field Values for HTTP][rfc9651]). The IETF AI Preferences workgroup is initially defining two methods for attaching AI preferences to assets ([Associating AI Usage Preferences With Content][draft-attach]):
 1. robots.txt ([RFC 9309: Robots Exclusion Protocol][rfc9309]) for location based preferences
 2. HTTP Content-Usage header for unit based preferences
 
 [draft-vocab]: https://datatracker.ietf.org/doc/draft-ietf-aipref-vocab/
-[draft-attach]: https://datatracker.ietf.org/doc/draft-it-aipref-attachment/
+[draft-attach]: https://datatracker.ietf.org/doc/draft-ietf-aipref-attach/
 [rfc9651]: https://www.rfc-editor.org/rfc/rfc9651.html
 [rfc9309]: https://www.rfc-editor.org/rfc/rfc9309.html
 
@@ -160,7 +160,7 @@ The CC signals extend the IETF draft [Vocabulary For Expressing AI Usage Prefere
 
 AI usage preferences with CC signals is defined in a content usage expression with the value including three components:
 ```
-ai=n;exceptions=cc-cr
+ai-use=n;exceptions=cc-cr
 ▲  ▲            ▲
 │  │            └ CC signal
 │  └ Preference
@@ -174,10 +174,10 @@ ai=n;exceptions=cc-cr
 
 ### Robots.txt example
 
-The following `robots.txt` excerpt example grants permission to all paths for all user agents with a usage preference of no for AI training unless credit is provided per the CC signal.
+The following `robots.txt` excerpt example grants permission to all paths for all user agents with a usage preference of no for AI use unless credit is provided per the CC signal.
 ```robots.txt
 User-Agent: *
-Content-Usage: ai=n;exceptions=cc-cr
+Content-Usage: ai-use=n;exceptions=cc-cr
 Allow: /
 ```
 
@@ -189,7 +189,7 @@ The following HTTP Content-Usage header example grants permission to the URL wit
 200 OK
 Date: Mon, 09 Jun 2025 12:42:03 UTC
 Content-Type: text/plain
-Content-Usage: genai=n;exceptions=cc-cr-ec
+Content-Usage: train-genai=n;exceptions=cc-cr-ec
 ```
 
 
