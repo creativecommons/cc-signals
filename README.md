@@ -31,7 +31,9 @@ The GitHub web interface offers many capabilities and can, accordingly, feel ove
 
 ## CC signals framework
 
-Using CC signals, a steward of a large collection of content can express a set of criteria that AI developers must meet. The criteria are organized around different dimensions of reciprocity, and are intended to drive meaningful, practical action. CC signals are designed to be interpretable by machines, as well as humans. To accomplish this, they build on [developing standards for expressing AI usage preferences][draft-vocab]. Those standards will include options for fully opting out, so no CC signal is needed to do so. CC signals are intended for use cases where someone wants to allow reuse, but with terms attached.
+Using CC signals, a steward of a large collection of content can express a set of criteria that AI developers must meet. The criteria are organized around different dimensions of reciprocity, and are intended to drive meaningful, practical action. CC signals are designed to be interpretable by machines, as well as humans. 
+
+To accomplish this, they are linked to [developing standards for expressing AI usage preferences][draft-vocab]. Those standards will include options for fully opting out, so no CC signal is needed to do so. CC signals are intended for use cases where someone wants to allow reuse, but with terms attached.
 
 [draft-vocab]: https://datatracker.ietf.org/doc/draft-ietf-aipref-vocab/
 
