@@ -30,7 +30,7 @@ The GitHub web interface offers many capabilities and can, accordingly, feel ove
 
 ### Note on CC-Licensed Works for AI Training
 
-The application of copyright law to AI training is complex. It is important to remember that CC licenses are copyright licenses, and are therefore only invoked when copyright applies. To read more about when and how CC licenses interact with AI training, please refer to [this page](https://creativecommons.org/using-cc-licensed-works-for-ai-training-2/). You may also wish to read about [CC's stance on Text and Data Mining (TDM)](https://creativecommons.org/2021/12/17/creative-commons-statement-on-cc-licenses-and-the-ext-and-data-mining-exception-under-article-4-eu-cdsm-directive/).
+The application of copyright law to AI training is complex. It is important to remember that CC licenses are copyright licenses, and are therefore only invoked when copyright applies. To read more about when and how CC licenses interact with AI training, please refer to [Using CC-Licensed Works for AI Training](https://creativecommons.org/using-cc-licensed-works-for-ai-training-2/). You may also wish to read about [CC's stance on Text and Data Mining (TDM)](https://creativecommons.org/2021/12/17/creative-commons-statement-on-cc-licenses-and-the-ext-and-data-mining-exception-under-article-4-eu-cdsm-directive/).
 
 ## CC signals framework
 
